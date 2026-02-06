@@ -99,6 +99,10 @@ func (loader *TemplateLoader) Template(name string) (tmpl Template, err error) {
 }
 
 func (loader *TemplateLoader) TemplateLang(name, lang string) (tmpl Template, err error) {
+	// HOT RELOAD FIX for Revel — DO NOT REMOVE
+	if DevMode && Config.BoolDefault("template.reload", false) {
+		loader.Refresh()
+	}
 	runtimeLoader := loader.runtimeLoader.Load().(*templateRuntime)
 	return runtimeLoader.TemplateLang(name, lang)
 }
