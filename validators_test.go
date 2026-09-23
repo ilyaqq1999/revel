@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/revel/revel"
+	"github.com/ilyaqq1999/revel"
 )
 
 const (

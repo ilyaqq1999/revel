@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/revel/config"
-	"github.com/revel/revel"
+	"github.com/ilyaqq1999/revel"
 )
 
 // These tests require redis server running on localhost:6379 (the default).

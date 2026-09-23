@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/revel/revel/session"
-	"github.com/revel/revel/utils"
+	"github.com/ilyaqq1999/revel/session"
+	"github.com/ilyaqq1999/revel/utils"
 )
 
 // Revel's variables server, router, etc.

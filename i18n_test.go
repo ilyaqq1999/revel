@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/revel/config"
-	"github.com/revel/revel/logger"
+	"github.com/ilyaqq1999/revel/logger"
 )
 
 const (

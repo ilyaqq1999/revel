@@ -21,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/revel/revel"
-	"github.com/revel/revel/session"
+	"github.com/ilyaqq1999/revel"
+	"github.com/ilyaqq1999/revel/session"
 	"golang.org/x/net/websocket"
 )
 
