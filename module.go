@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/go-stack/stack"
-	"github.com/revel/revel/logger"
+	"github.com/ilyaqq1999/revel/logger"
 )
 
 // Module specific functions.

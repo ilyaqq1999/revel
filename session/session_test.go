@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/revel/revel"
-	"github.com/revel/revel/session"
+	"github.com/ilyaqq1999/revel"
+	"github.com/ilyaqq1999/revel/session"
 	"github.com/stretchr/testify/assert"
 )
 

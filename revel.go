@@ -13,13 +13,13 @@ import (
 	"strings"
 
 	"github.com/revel/config"
-	"github.com/revel/revel/logger"
-	"github.com/revel/revel/model"
+	"github.com/ilyaqq1999/revel/logger"
+	"github.com/ilyaqq1999/revel/model"
 )
 
 const (
 	// RevelImportPath Revel framework import path.
-	RevelImportPath = "github.com/revel/revel"
+	RevelImportPath = "github.com/ilyaqq1999/revel"
 )
 
 const (

@@ -1,6 +1,6 @@
 package model
 
-import "github.com/revel/revel/utils"
+import "github.com/ilyaqq1999/revel/utils"
 
 type RevelController struct {
 	Reuse              bool                              // True if the controllers are reused Set via revel.controller.reuse
